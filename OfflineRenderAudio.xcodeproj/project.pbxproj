@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		147127251E7BFEB500A26090 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147127241E7BFEB500A26090 /* AppDelegate.swift */; };
+		147127271E7BFEB500A26090 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147127261E7BFEB500A26090 /* ViewController.swift */; };
+		1471272C1E7BFEB500A26090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1471272B1E7BFEB500A26090 /* Assets.xcassets */; };
+		1471272F1E7BFEB500A26090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1471272D1E7BFEB500A26090 /* LaunchScreen.storyboard */; };
+		147127381E7BFFCF00A26090 /* 500miles.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 147127371E7BFFCF00A26090 /* 500miles.mp3 */; };
+		1471273A1E7BFFD700A26090 /* MiAmor.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 147127391E7BFFD700A26090 /* MiAmor.mp3 */; };
+		1471273C1E7BFFFC00A26090 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1471273B1E7BFFFC00A26090 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		147127211E7BFEB500A26090 /* OfflineRenderAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OfflineRenderAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		147127241E7BFEB500A26090 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		147127261E7BFEB500A26090 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1471272B1E7BFEB500A26090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1471272E1E7BFEB500A26090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		147127301E7BFEB500A26090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147127371E7BFFCF00A26090 /* 500miles.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 500miles.mp3; sourceTree = "<group>"; };
+		147127391E7BFFD700A26090 /* MiAmor.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MiAmor.mp3; sourceTree = "<group>"; };
+		1471273B1E7BFFFC00A26090 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1471271E1E7BFEB500A26090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		147127181E7BFEB500A26090 = {
+			isa = PBXGroup;
+			children = (
+				147127231E7BFEB500A26090 /* OfflineRenderAudio */,
+				147127221E7BFEB500A26090 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		147127221E7BFEB500A26090 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				147127211E7BFEB500A26090 /* OfflineRenderAudio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		147127231E7BFEB500A26090 /* OfflineRenderAudio */ = {
+			isa = PBXGroup;
+			children = (
+				147127261E7BFEB500A26090 /* ViewController.swift */,
+				1471273B1E7BFFFC00A26090 /* Main.storyboard */,
+				1471272D1E7BFEB500A26090 /* LaunchScreen.storyboard */,
+				1471272B1E7BFEB500A26090 /* Assets.xcassets */,
+				147127361E7BFF7E00A26090 /* Support */,
+			);
+			path = OfflineRenderAudio;
+			sourceTree = "<group>";
+		};
+		147127361E7BFF7E00A26090 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				147127391E7BFFD700A26090 /* MiAmor.mp3 */,
+				147127371E7BFFCF00A26090 /* 500miles.mp3 */,
+				147127241E7BFEB500A26090 /* AppDelegate.swift */,
+				147127301E7BFEB500A26090 /* Info.plist */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		147127201E7BFEB500A26090 /* OfflineRenderAudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 147127331E7BFEB500A26090 /* Build configuration list for PBXNativeTarget "OfflineRenderAudio" */;
+			buildPhases = (
+				1471271D1E7BFEB500A26090 /* Sources */,
+				1471271E1E7BFEB500A26090 /* Frameworks */,
+				1471271F1E7BFEB500A26090 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OfflineRenderAudio;
+			productName = OfflineRenderAudio;
+			productReference = 147127211E7BFEB500A26090 /* OfflineRenderAudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		147127191E7BFEB500A26090 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Andrii Bala";
+				TargetAttributes = {
+					147127201E7BFEB500A26090 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MG4M9S4HQP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1471271C1E7BFEB500A26090 /* Build configuration list for PBXProject "OfflineRenderAudio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 147127181E7BFEB500A26090;
+			productRefGroup = 147127221E7BFEB500A26090 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				147127201E7BFEB500A26090 /* OfflineRenderAudio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1471271F1E7BFEB500A26090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1471272F1E7BFEB500A26090 /* LaunchScreen.storyboard in Resources */,
+				1471273C1E7BFFFC00A26090 /* Main.storyboard in Resources */,
+				1471273A1E7BFFD700A26090 /* MiAmor.mp3 in Resources */,
+				147127381E7BFFCF00A26090 /* 500miles.mp3 in Resources */,
+				1471272C1E7BFEB500A26090 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1471271D1E7BFEB500A26090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147127271E7BFEB500A26090 /* ViewController.swift in Sources */,
+				147127251E7BFEB500A26090 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1471272D1E7BFEB500A26090 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1471272E1E7BFEB500A26090 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		147127311E7BFEB500A26090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		147127321E7BFEB500A26090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		147127341E7BFEB500A26090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MG4M9S4HQP;
+				INFOPLIST_FILE = OfflineRenderAudio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iThinkers.OfflineRenderAudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		147127351E7BFEB500A26090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MG4M9S4HQP;
+				INFOPLIST_FILE = OfflineRenderAudio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iThinkers.OfflineRenderAudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1471271C1E7BFEB500A26090 /* Build configuration list for PBXProject "OfflineRenderAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147127311E7BFEB500A26090 /* Debug */,
+				147127321E7BFEB500A26090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		147127331E7BFEB500A26090 /* Build configuration list for PBXNativeTarget "OfflineRenderAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				147127341E7BFEB500A26090 /* Debug */,
+				147127351E7BFEB500A26090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 147127191E7BFEB500A26090 /* Project object */;
+}
